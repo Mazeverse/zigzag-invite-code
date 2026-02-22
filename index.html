@@ -8,344 +8,116 @@
   <meta name="keywords" content="지그재그 초대코드, 지그재그 추천인, 지그재그 추천인 코드, 지그재그 초대코드 복사, zigzag invite code" />
   <meta name="robots" content="index,follow" />
 
-  <!-- Google Search Console verification (default) -->
+  <link rel="canonical" href="https://zigzag-invite-code.vercel.app/" />
+
+  <!-- Google Search Console -->
   <meta name="google-site-verification" content="BtBII3918J1J9BnNiNfjVaPn0QXfIj5xoi1G_8qtFk4" />
-  <!-- Legacy verification tag (kept for compatibility with existing ownership) -->
   <meta name="google-site-verification" content="mbtcFig3_5PR..." />
-  <!-- Naver Webmaster Tools verification (default) -->
+  <!-- Naver -->
   <meta name="naver-site-verification" content="f28f86b7853e4f6704297b86d7def790b41e00e4" />
 
   <meta property="og:type" content="website" />
   <meta property="og:title" content="지그재그 초대코드 1XKHJDHK | 지그재그 추천인" />
   <meta property="og:description" content="지그재그 초대코드(추천인) 1XKHJDHK 복사하고 혜택을 확인해보세요." />
+  <meta property="og:url" content="https://zigzag-invite-code.vercel.app/" />
   <meta property="og:locale" content="ko_KR" />
   <meta name="theme-color" content="#0b0b10" />
 
   <style>
-    :root {
-      --bg: #07070c;
-      --card: rgba(255,255,255,0.06);
-      --card2: rgba(255,255,255,0.08);
-      --text: rgba(255,255,255,0.92);
-      --muted: rgba(255,255,255,0.72);
-      --border: rgba(255,255,255,0.14);
-      --lav: #b8a1ff;
-      --lav2: #d7cbff;
-      --black: #0b0b10;
-      --shadow: 0 18px 60px rgba(0,0,0,0.55);
-      --radius: 20px;
-    }
-    * { box-sizing: border-box; }
-    html, body { height: 100%; }
     body {
-      margin: 0;
-      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", Arial, sans-serif;
-      color: var(--text);
-      background:
-        radial-gradient(1200px 700px at 10% 10%, rgba(184,161,255,0.20), transparent 55%),
-        radial-gradient(900px 520px at 85% 20%, rgba(215,203,255,0.16), transparent 55%),
-        radial-gradient(800px 520px at 50% 100%, rgba(184,161,255,0.10), transparent 50%),
-        linear-gradient(180deg, #06060b, #0b0b12 55%, #06060b);
-      display: grid;
-      place-items: center;
-      padding: 22px;
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Noto Sans KR,Arial,sans-serif;
+      background:#07070c;
+      color:#fff;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      min-height:100vh;
     }
-
-    .wrap {
-      width: min(920px, 100%);
-      display: grid;
-      gap: 18px;
-    }
-
-    header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-    }
-
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      padding: 10px 12px;
-      border: 1px solid var(--border);
-      background: rgba(255,255,255,0.05);
-      border-radius: 999px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-      backdrop-filter: blur(10px);
-    }
-
-    .dot {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      background: var(--lav);
-      box-shadow: 0 0 0 6px rgba(184,161,255,0.12);
-    }
-
-    .badge span {
-      font-size: 13px;
-      color: var(--muted);
-      letter-spacing: -0.2px;
-    }
-
     .card {
-      border: 1px solid var(--border);
-      background: linear-gradient(180deg, rgba(255,255,255,0.07), rgba(255,255,255,0.05));
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      overflow: hidden;
+      background:rgba(255,255,255,0.06);
+      border:1px solid rgba(255,255,255,0.15);
+      border-radius:20px;
+      padding:28px;
+      max-width:600px;
+      width:90%;
+      text-align:center;
+      box-shadow:0 20px 60px rgba(0,0,0,.5);
     }
-
-    .card-inner {
-      padding: 22px;
-      display: grid;
-      gap: 16px;
-    }
-
     h1 {
-      margin: 0;
-      font-size: clamp(22px, 2.6vw, 34px);
-      letter-spacing: -0.6px;
-      line-height: 1.15;
+      margin-top:0;
+      color:#d7cbff;
     }
-
-    .sub {
-      margin: 0;
-      color: var(--muted);
-      line-height: 1.55;
-      letter-spacing: -0.2px;
-    }
-
-    .codebox {
-      border: 1px solid rgba(184,161,255,0.35);
-      background: radial-gradient(1200px 260px at 30% 20%, rgba(184,161,255,0.18), transparent 65%),
-                  rgba(0,0,0,0.35);
-      border-radius: 16px;
-      padding: 14px;
-      display: grid;
-      gap: 10px;
-    }
-
-    .code-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      flex-wrap: wrap;
-    }
-
     .code {
-      font-size: 22px;
-      font-weight: 800;
-      letter-spacing: 1.2px;
-      padding: 10px 12px;
-      border-radius: 14px;
-      background: rgba(255,255,255,0.06);
-      border: 1px solid rgba(255,255,255,0.12);
-      user-select: all;
+      font-size:26px;
+      font-weight:800;
+      margin:18px 0;
+      padding:14px;
+      border-radius:12px;
+      background:rgba(184,161,255,.15);
+      border:1px solid rgba(184,161,255,.5);
+      letter-spacing:2px;
     }
-
-    .btns {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
+    button,a {
+      display:inline-block;
+      margin:6px;
+      padding:12px 16px;
+      border-radius:12px;
+      border:1px solid rgba(255,255,255,.2);
+      background:rgba(255,255,255,.08);
+      color:#fff;
+      text-decoration:none;
+      font-weight:700;
+      cursor:pointer;
     }
-
-    button, a.btn {
-      appearance: none;
-      border: 1px solid rgba(255,255,255,0.14);
-      background: rgba(255,255,255,0.06);
-      color: var(--text);
-      padding: 12px 14px;
-      border-radius: 14px;
-      cursor: pointer;
-      font-weight: 700;
-      letter-spacing: -0.2px;
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      transition: transform 0.08s ease, background 0.2s ease, border-color 0.2s ease;
-      backdrop-filter: blur(10px);
+    button:hover,a:hover {
+      background:rgba(184,161,255,.25);
     }
-
-    button:hover, a.btn:hover {
-      transform: translateY(-1px);
-      border-color: rgba(184,161,255,0.50);
-      background: rgba(184,161,255,0.12);
-    }
-
-    .primary {
-      border-color: rgba(184,161,255,0.65) !important;
-      background: linear-gradient(180deg, rgba(184,161,255,0.18), rgba(184,161,255,0.10));
-    }
-
-    .small {
-      font-size: 13px;
-      padding: 10px 12px;
-      border-radius: 12px;
-    }
-
-    .howto {
-      display: grid;
-      gap: 10px;
-      padding: 18px 22px 22px;
-      border-top: 1px solid var(--border);
-      background: linear-gradient(180deg, rgba(0,0,0,0.05), rgba(0,0,0,0.15));
-    }
-
-    .steps {
-      display: grid;
-      gap: 10px;
-      margin: 0;
-      padding-left: 18px;
-      color: var(--muted);
-      line-height: 1.6;
-    }
-
-    .note {
-      font-size: 13px;
-      color: rgba(255,255,255,0.62);
-      line-height: 1.6;
-    }
-
-    footer {
-      display: flex;
-      justify-content: space-between;
-      gap: 10px;
-      flex-wrap: wrap;
-      color: rgba(255,255,255,0.55);
-      font-size: 12.5px;
-    }
-
     .toast {
-      position: fixed;
-      left: 50%;
-      bottom: 22px;
-      transform: translateX(-50%);
-      padding: 12px 14px;
-      border-radius: 999px;
-      border: 1px solid rgba(184,161,255,0.55);
-      background: rgba(12,12,18,0.75);
-      color: var(--text);
-      box-shadow: 0 18px 60px rgba(0,0,0,0.55);
-      opacity: 0;
-      pointer-events: none;
-      transition: opacity 0.18s ease, transform 0.18s ease;
-      backdrop-filter: blur(10px);
-      font-weight: 700;
+      position:fixed;
+      bottom:20px;
+      left:50%;
+      transform:translateX(-50%);
+      background:#111;
+      border:1px solid #b8a1ff;
+      padding:10px 14px;
+      border-radius:999px;
+      opacity:0;
+      transition:.2s;
     }
-    .toast.show {
-      opacity: 1;
-      transform: translateX(-50%) translateY(-2px);
-    }
-
-    @media (max-width: 520px) {
-      .code { font-size: 20px; width: 100%; text-align: center; }
-      .code-row { justify-content: center; }
-      .btns { width: 100%; justify-content: center; }
-      header { flex-direction: column; align-items: flex-start; }
-    }
+    .toast.show { opacity:1; }
   </style>
 
   <script type="application/ld+json">
-  {"@context": "https://schema.org", "@type": "WebPage", "name": "지그재그 초대코드 1XKHJDHK", "description": "지그재그 초대코드(추천인) 1XKHJDHK 입력 방법 안내 및 복사 버튼 제공", "inLanguage": "ko", "dateModified": "2026-02-22"}
+  {"@context": "https://schema.org", "@type": "WebPage", "name": "지그재그 초대코드 1XKHJDHK", "url": "https://zigzag-invite-code.vercel.app/", "inLanguage": "ko", "dateModified": "2026-02-22"}
   </script>
 </head>
 
 <body>
-  <div class="wrap">
-    <header>
-      <div class="badge" aria-label="페이지 요약">
-        <span class="dot" aria-hidden="true"></span>
-        <span>지그재그 초대코드 · 추천인 코드</span>
-      </div>
-      <a class="btn small" href="#howto" aria-label="입력 방법으로 이동">입력 방법 보기 →</a>
-    </header>
+  <div class="card">
+    <h1>지그재그 초대코드</h1>
+    <p>아래 코드를 복사해서 추천인 입력란에 붙여넣기 하세요.</p>
 
-    <main class="card" role="main">
-      <div class="card-inner">
-        <h1>지그재그 초대코드 <span style="color: var(--lav2)">1XKHJDHK</span></h1>
-        <p class="sub">
-          아래 버튼을 눌러 초대코드를 <b>바로 복사</b>할 수 있어요.
-          지그재그 앱(또는 웹)에서 <b>추천인/초대코드 입력</b> 화면에 붙여넣기 하면 됩니다.
-        </p>
+    <div class="code" id="code">1XKHJDHK</div>
 
-        <section class="codebox" aria-label="초대코드 영역">
-          <div class="code-row">
-            <div class="code" id="inviteCode" aria-label="초대코드">1XKHJDHK</div>
-            <div class="btns">
-              <button class="primary" id="copyBtn" type="button" aria-label="초대코드 복사">복사하기</button>
-              <a class="btn" href="https://zigzag.kr/" target="_blank" rel="noopener" aria-label="지그재그 바로가기">지그재그 바로가기</a>
-            </div>
-          </div>
-          <div class="note">
-            ※ 혜택/정책은 시점에 따라 변동될 수 있어요. 앱 내 안내를 최종 기준으로 확인해주세요.
-          </div>
-        </section>
-      </div>
+    <button onclick="copyCode()">복사하기</button>
+    <a href="https://zigzag.kr/" target="_blank">지그재그 바로가기</a>
 
-      <section class="howto" id="howto" aria-label="입력 방법">
-        <h2 style="margin:0; font-size:18px; letter-spacing:-0.3px;">지그재그 추천인(초대코드) 입력 방법</h2>
-        <ol class="steps">
-          <li>위에서 <b>복사하기</b> 버튼을 눌러 코드(1XKHJDHK)를 복사합니다.</li>
-          <li>지그재그 앱을 열고 <b>추천인/초대코드 입력</b> 메뉴로 이동합니다.</li>
-          <li>입력칸에 붙여넣기 후 적용(확인)을 누릅니다.</li>
-        </ol>
-        <p class="note">
-          검색 키워드: <b>지그재그 초대코드</b>, <b>지그재그 추천인</b>
-        </p>
-      </section>
-    </main>
-
-    <footer>
-      <div>© 2026 Zigzag Invite Code Landing (Unofficial)</div>
-      <div style="opacity:0.8;">Last updated: 2026-02-22</div>
-    </footer>
+    <p style="opacity:.7;font-size:13px;margin-top:18px;">
+      검색 키워드: 지그재그 초대코드 · 지그재그 추천인
+    </p>
   </div>
 
-  <div class="toast" id="toast" role="status" aria-live="polite">복사 완료!</div>
+  <div id="toast" class="toast">복사 완료!</div>
 
-  <script>
-    const codeText = "1XKHJDHK";
-    const copyBtn = document.getElementById("copyBtn");
-    const toast = document.getElementById("toast");
+<script>
+function copyCode(){
+  navigator.clipboard.writeText("1XKHJDHK");
+  const t=document.getElementById("toast");
+  t.classList.add("show");
+  setTimeout(()=>t.classList.remove("show"),1400);
+}
+</script>
 
-    function showToast(msg) {
-      toast.textContent = msg;
-      toast.classList.add("show");
-      window.clearTimeout(window.__toastTimer);
-      window.__toastTimer = window.setTimeout(() => toast.classList.remove("show"), 1400);
-    }
-
-    async function copyToClipboard(text) {
-      try {
-        if (navigator.clipboard && window.isSecureContext) {
-          await navigator.clipboard.writeText(text);
-          return true;
-        }
-        const ta = document.createElement("textarea");
-        ta.value = text;
-        ta.style.position = "fixed";
-        ta.style.left = "-9999px";
-        ta.style.top = "-9999px";
-        document.body.appendChild(ta);
-        ta.focus();
-        ta.select();
-        const ok = document.execCommand("copy");
-        document.body.removeChild(ta);
-        return ok;
-      } catch (e) {
-        return false;
-      }
-    }
-
-    copyBtn.addEventListener("click", async () => {
-      const ok = await copyToClipboard(codeText);
-      showToast(ok ? "복사 완료! 붙여넣기 하면 돼요." : "복사 실패 😢 직접 드래그해서 복사해주세요.");
-    });
-  </script>
 </body>
 </html>
